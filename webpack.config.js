@@ -1,55 +1,28 @@
-const path = require('path');
-const CopyWebpackPlugin = require('copy-webpack-plugin');
 const webpack = require('webpack');
+const path = require('path');
 
 module.exports = {
-  entry: {
-    app: './src/index.js',
-    'production-dependencies': ['phaser'],
-  },
+  entry: './src/index.js',
 
   output: {
     path: path.resolve(__dirname, 'build'),
-    filename: 'app.bundle.js',
+    publicPath: '/build/',
+    filename: 'project.bundle.js',
   },
 
   module: {
     rules: [
       {
-        test: /\.js$/,
-        include: path.resolve(__dirname, 'src/'),
-        use: {
-          loader: 'babel-loader',
-          options: {
-            presets: ['env'],
-          },
-        },
+        test: [/\.vert$/, /\.frag$/],
+        use: 'raw-loader',
       },
     ],
   },
 
   plugins: [
-    new CopyWebpackPlugin([
-      {
-        from: path.resolve(__dirname, 'index.html'),
-        to: path.resolve(__dirname, 'build'),
-      },
-      {
-        from: path.resolve(__dirname, 'assets', '**', '*'),
-        to: path.resolve(__dirname, 'build'),
-      },
-    ]),
     new webpack.DefinePlugin({
-      'typeof CANVAS_RENDERER': JSON.stringify(true),
-      'typeof WEBGL_RENDERER': JSON.stringify(true),
-    }),
-    new webpack.optimize.CommonsChunkPlugin({
-      name: 'production-dependencies',
-      filename: 'production-dependencies.bundle.js',
+      CANVAS_RENDERER: JSON.stringify(true),
+      WEBGL_RENDERER: JSON.stringify(true),
     }),
   ],
-
-  devServer: {
-    contentBase: path.resolve(__dirname, 'build'),
-  },
 };
