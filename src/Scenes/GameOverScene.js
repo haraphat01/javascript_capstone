@@ -21,7 +21,7 @@ export default class GameOverScene extends Phaser.Scene {
       fontFamily: 'monospace',
       fontSize: 40,
       fontStyle: 'bold',
-      color: '#ffb132',
+      color: '#FFA500',
       align: 'center',
     });
 
@@ -33,7 +33,7 @@ export default class GameOverScene extends Phaser.Scene {
         fontFamily: 'monospace',
         fontSize: 20,
         fontStyle: 'bold',
-        color: '#ffb132',
+        color: '#FFA500',
         align: 'center',
       },
     );
