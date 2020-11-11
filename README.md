@@ -7,9 +7,9 @@
   <h3 align="center">Built with JavaScript using the Phaser 3 Library</h3>
 
   <p align="center">
-    <a href="https://github.com/Azeem838/suriva-noroc-rpg/issues">Report Bug</a>
+    <a href="https://github.com/haraphat01/javascript/issues">Report Bug</a>
     · 
-    <a href="https://github.com/Azeem838/suriva-noroc-rpg/issues">Request Feature</a>
+    <a href="https://github.com/haraphat01/javascript/issues">Request Feature</a>
   </p>
 </p>
 
@@ -30,7 +30,7 @@
 
 ## About The Project
 
-Welcome to the Suriva Noroc RPG Game. This game is inspired by the events that are taking place throughout the world. You will be a doctor trying to kill the Suriva Noroc virus!
+Welcome to Aja n Sare Game. This game is inspired by the events that are taking place throughout the world. You will be a doctor trying to kill virus.
 
 This game has many waves, try to get the highest score to beat the virus!
 
@@ -52,7 +52,7 @@ Hint: Don't waste the Mushrooms!
 
 ## Live Link
 
-[Click here](http://azeemahmed.me/suriva-noroc-rpg/)
+[Click here](https://github.com/haraphat01/javascript/)
 
 <!-- INSTALLATION -->
 
@@ -66,14 +66,14 @@ Have a browser installed
 
 ### Setup
 
-Clone this repo with <code>git@github.com:Azeem838/suriva-noroc-rpg.git</code>
+Clone this repo with <code>git@github.com:haraphat01/javascript.git</code>
 
 ### Usage - Follow these
 
 1. <code>cd</code> into the project directory
 2. run <code>npm install</code>
 4. Navigate to [localhost:8000](http://localhost:8000) in your browser.
-5. Enjoy :smiley:
+5. Enjoy the game
 
 <!-- BUILD WITH -->
 
@@ -100,19 +100,18 @@ This game has 3 main images that bring it to life:
 
 <p align="center"> <img src="./assets/maps/suriva-noroc-map.png" alt="Suriva Noroc map" > 
 
-3. The Suriva Virus:
+3. The Aja n Sare Virus:
 
 <p align="center"> <img src="./assets/images/coronavirus.png" alt="Suriva Noroc virus" width="300" height="300"> 
 
 ## Game Play
 
-You are a doctor in a weird world where lava and waterfalls exist together in close proximity. There has been an outbreak of the Novel Suriva virus and you have been given the task by your community to kill the virus before it makes its way into town.
+You are a doctor in a weird world where lava and waterfalls exist together in close proximity. There has been an outbreak of a virus, your task is to make sure you kill the enemy or you get killed by the enemy. Your survival is a must here.
 
-You take 100 health and head to the outskirts of your city (where lava meets waterfall) armed with a small laser beam that kills the virus on impact. When you make contact with this virus, you notice that your immune system only fights it off for 2 seconds at a time, however, this strips 50% of your health. You also notice that eating the special mushrooms around you increases your health by varying amounts.
 
 ### Objective
 
-This game has 1 object - Kill as much of the Suriva virus as possible. Initially, there will be a few infections but as you get more proficient in killing Suriva, more will come!
+This game has 1 object - Kill as much virus as possible. Initially, there will be a few infections but as you get more proficient in killing Suriva, more will come!
 
 Try to get to the highest wave possible and remember that there is a limited supply of special Mushrooms!
 
@@ -120,10 +119,10 @@ Don't forget to post your score to the global leaderboard.
 
 ## Authors
 
-:bust_in_silhouette: **Azeem Ahmed**
+:bust_in_silhouette: **Arafat Akata**
 
-- Github: [@Azeem838](https://github.com/Azeem838)
-- LinkedIn: [Azeem Ahmed](www.linkedin.com/in/azeemmahmed)
+- Github: [@haraphat01](https://github.com/haraphat01/javascript)
+
 
 ## Show your support
 

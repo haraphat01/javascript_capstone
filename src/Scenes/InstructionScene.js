@@ -15,7 +15,7 @@ export default class InstructionScene extends Phaser.Scene {
       'How to Play:'
       + '\nW, A, S, D to move the player'
       + '\nUse the space key to attack the Virus!',
-      { fontSize: 30 },
+      { fontSize: 20 },
     );
 
     this.menuButton = new Button(
@@ -29,17 +29,17 @@ export default class InstructionScene extends Phaser.Scene {
       'Title',
     ).setScale(0.2);
 
-    this.intro = this.add.text(215, 400, 'Please Enter Your Name: ', {
-      fontSize: 30,
+    this.intro = this.add.text(215, 400, 'Pls enter your name: ', {
+      fontSize: 20,
       fontFamily: 'monospace',
     });
 
     const input = this.add.dom(480, 410, 'input', {
       type: 'text',
       name: 'nameField',
-      fontSize: '42px',
+      fontSize: '32px',
       backgroundColor: '#fff',
-      border: '2px solid white',
+      border: '1px solid white',
     });
     input.scaleX = 0.4;
     input.scaleY = 0.6;
