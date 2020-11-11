@@ -3,7 +3,7 @@
     <p align="center"> <img src="./suriva-noroc-gameplay.gif" alt="Suriva Noroc RPG" width="600" height="400"> </p>
   </a>
 
-  <h2 align="center">Suriva Noroc RPG Game</h2>
+  <h2 align="center">Aja n Sare Game</h2>
   <h3 align="center">Built with JavaScript using the Phaser 3 Library</h3>
 
   <p align="center">
