@@ -6,7 +6,8 @@
   "scripts": {
     "build": "webpack",
     "start": "npm run build && webpack-dev-server --port=8000",
-    "test": "jest"
+    "test": "jest",
+    "linting": "eslint"
   },
   "repository": {
     "type": "git",
