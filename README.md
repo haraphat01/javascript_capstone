@@ -52,7 +52,7 @@ Hint: Don't waste the Mushrooms!
 
 ## Live Link
 
-[Click here](https://github.com/haraphat01/javascript/)
+[Click here](https://raw.githack.com/haraphat01/javascript/feature/index.html)
 
 <!-- INSTALLATION -->
 
