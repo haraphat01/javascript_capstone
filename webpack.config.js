@@ -18,9 +18,7 @@ module.exports = {
       },
     ],
   },
-
-  transformIgnorePatterns: ['<rootDir>/node_modules/'],
-
+  
   plugins: [
     new webpack.DefinePlugin({
       CANVAS_RENDERER: JSON.stringify(true),
