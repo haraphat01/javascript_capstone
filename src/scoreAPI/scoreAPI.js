@@ -1,5 +1,5 @@
-const baseUrl = 'https://us-central1-js-capstone-backend.cloudfunctions.net/api/';
-const gameId = 'Zl4d7IVkemOTTVg2fUdz';
+const baseUrl = 'https://us-central1-js-capstone-backend.cloudfunctions.net/api';
+const gameId = 'lTnHA1Sj94RLGOrEcxLP';
 
 export const postScore = async (name, score) => {
   const response = await fetch(`${baseUrl}/games/${gameId}/scores`, {
